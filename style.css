@@ -1,0 +1,58 @@
+html{
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 320px 500px;
+    width: 1000px;
+    margin: auto;
+}
+.lblock{
+    background-color: #CEAD78   ;
+    
+}
+.me{
+    text-align: center;
+    
+}
+h1{
+    padding-top: 20px;
+}
+.photo{
+    text-align: center;
+}
+.contact{
+    padding-left: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.contacts{
+    padding-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.skills{
+    padding-left: 25px;
+}
+h3{
+    padding-left: 35px;
+}
+.text{
+    padding-left: 25px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+#email, #phone{
+    padding-left: 25px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
